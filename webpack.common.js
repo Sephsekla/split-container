@@ -105,11 +105,6 @@ module.exports =  {
         exclude: /fallback\.scss$/,
         use: extractSass.extract(extractSettings)
       },
-
-     {
-        test: /fallback\.scss$/,
-        use: extractAdmin.extract(extractSettings)
-      }, 
       
       
       
