@@ -1,3 +1,11 @@
+
+@import "~bootstrap/scss/functions";
+@import "~bootstrap/scss/variables";
+
+@import "~bootstrap/scss/mixins/breakpoints";
+@import "~bootstrap/scss/mixins/grid-framework";
+@import "~bootstrap/scss/mixins/grid";
+
 // For each breakpoint, define the maximum width of the container in a media query
 @mixin make-split-container-max-widths($max-widths: $container-max-widths, $breakpoints: $grid-breakpoints) {
 
