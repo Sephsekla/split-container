@@ -13,6 +13,7 @@ devDependencies:
   extract-text-webpack-plugin: 4.0.0-beta.0_webpack@4.43.0
   file-loader: 1.1.11_webpack@4.43.0
   html-webpack-plugin: 3.2.0_webpack@4.43.0
+  ifdef-loader: 2.1.5
   imports-loader: 0.7.1
   mini-css-extract-plugin: 0.4.5_webpack@4.43.0
   node-sass: 4.14.1
@@ -2778,6 +2779,12 @@ packages:
     dev: true
     resolution:
       integrity: sha512-4vf7I2LYV/HaWerSo3XmlMkp5eZ83i+/CDluXi/IGTs/O1sejBNhTtnxzmRZfvOUqj7lZjqHkeTvpgSFDlWZTg==
+  /ifdef-loader/2.1.5:
+    dependencies:
+      loader-utils: 1.4.0
+    dev: true
+    resolution:
+      integrity: sha512-GMUW5L8ZjsKRGABV3iXLdNFe2l7qFp9jeGYS55I6RNZLgQpicKxUfdH5oLDJ1cu+udb0hZiglwW6nX2kzgy86w==
   /iferr/0.1.5:
     dev: true
     resolution:
@@ -6222,6 +6229,7 @@ specifiers:
   extract-text-webpack-plugin: ^4.0.0-beta.0
   file-loader: ^1.1.11
   html-webpack-plugin: ^3.2.0
+  ifdef-loader: ^2.1.5
   imports-loader: ^0.7.0
   mini-css-extract-plugin: ^0.4.5
   node-sass: ^4.11.0

@@ -1,1 +1,1 @@
-import 'split-container.scss;'
+import './split-container.scss';
